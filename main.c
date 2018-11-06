@@ -54,7 +54,7 @@ int main(int argc, char **argv)
         sprintf(l, "%s%5.3f", low, tl);
         sprintf(h, "%s%5.3f", high, th);
         sprintf(now, "%s%5.3f", nows, tmp);
-        ifttt("https://maker.ifttt.com/trigger/alarm_triggered/with/key/dRDyGX_3RTHT7m6SiTL_Pq", now, h, l);
+        ifttt("https://maker.ifttt.com/trigger/alarm_triggered/with/key/m-AgTC3LktW3gfIJPYzHRRZfgFVxP2u3vHr81DrYfCf", now, h, l);
 
         while (lseek(fd, 0, SEEK_SET) != -1)
         {
@@ -78,7 +78,8 @@ int main(int argc, char **argv)
                     sprintf(l, "%s%5.3f", "Lowest temperature is ", tl);
                     sprintf(h, "%s%5.3f", "Highest temperature is ", th);
                     sprintf(now, "%s%5.3f", "Current temperature is ", tmp);
-                    ifttt("https://maker.ifttt.com/trigger/alarm_triggered/with/key/dRDyGX_3RTHT7m6SiTL_Pq", now, h, l);
+                    ifttt("https://maker.ifttt.com/trigger/alarm_triggered/with/key/m-AgTC3LktW3gfIJPYzHRRZfgFVxP2u3vHr81DrYfCf", now, h, l);
+               
                 }
                 else
                 {

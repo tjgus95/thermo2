@@ -74,7 +74,7 @@ int main(int argc, char **argv)
                 {
                     tmp = nexttmp;
                     sent = tmp;
-                    printf("\n%5.3f\n", tmp);
+                    printf("\n Current: %5.3f, Lowest: %5.3f, Highest: %5.3f\n", tmp, tl, th);
                     sprintf(l, "%s%5.3f", "Lowest temperature is ", tl);
                     sprintf(h, "%s%5.3f", "Highest temperature is ", th);
                     sprintf(now, "%s%5.3f", "Current temperature is ", tmp);

@@ -84,7 +84,7 @@ int main(int argc, char **argv)
                 else
                 {
                     tmp = nexttmp;
-                    printf("\n%5.3f\n", tmp);
+                    printf("\n Current: %5.3f, Lowest: %5.3f, Highest: %5.3f\n", tmp, tl, th);
                 }
             }
         }
